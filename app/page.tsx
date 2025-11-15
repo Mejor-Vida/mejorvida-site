@@ -1,10 +1,22 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white text-black">
-      <h1 className="text-4xl font-bold mb-4">Seguros para una mejor vida</h1>
-      <p className="text-lg text-gray-700 max-w-xl text-center">
-        Protege a tu familia con planes asequibles y claros. 
-        Contáctanos hoy para una cotización gratuita.
+    <main
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+        backgroundColor: "#f9fafb",
+        fontFamily: "sans-serif",
+      }}
+    >
+      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
+        Seguros para una Mejor Vida
+      </h1>
+      <p style={{ fontSize: "1.25rem", color: "#555", textAlign: "center", maxWidth: "600px" }}>
+        Protege a tu familia con planes accesibles y confiables.  
+        Sitio oficial de Mejor Vida Insurance LLC.
       </p>
     </main>
   );
